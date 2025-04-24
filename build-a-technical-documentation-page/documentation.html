@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+  <nav id="navbar">
+    <header>My Tech Docs</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Setup_and_Installation">Setup and Installation</a>
+    <a class="nav-link" href="#JavaScript_Basics">JavaScript Basics</a>
+    <a class="nav-link" href="#Advanced_Concepts">Advanced Concepts</a>
+    <a class="nav-link" href="#Best_Practices">Best Practices</a>
+  </nav>
+
+  <!-- Main Documentation Content -->
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Welcome to the technical documentation. This guide covers the fundamentals of web development.</p>
+      <p>You’ll learn about core technologies like HTML, CSS, and JavaScript.</p>
+      <p>This doc is structured into sections for better navigation and comprehension.</p>
+      <p>Each section builds upon the previous one to ensure learning flow.</p>
+      <p>Use the left-hand nav to jump between sections.</p>
+      <code>console.log("Welcome to the docs!");</code>
+      <ul>
+        <li>HTML Basics</li>
+        <li>CSS Styling</li>
+        <li>JavaScript Essentials</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Setup_and_Installation">
+      <header>Setup and Installation</header>
+      <p>Before coding, install the necessary tools.</p>
+      <p>Download a text editor such as VS Code.</p>
+      <p>Install Node.js to manage packages.</p>
+      <p>Use Live Server to instantly preview your pages.</p>
+      <p>Confirm installations using command line tools.</p>
+      <code>node -v</code>
+      <code>npm -v</code>
+      <ul>
+        <li>VS Code</li>
+        <li>Node.js</li>
+        <li>Live Server Extension</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="JavaScript_Basics">
+      <header>JavaScript Basics</header>
+      <p>JavaScript is the programming language of the web.</p>
+      <p>It allows you to add interactivity to your pages.</p>
+      <p>You’ll learn about variables, functions, and control flow.</p>
+      <p>Use <code>let</code> or <code>const</code> for variable declarations.</p>
+      <p>Functions are reusable blocks of code.</p>
+      <code>let message = "Hello";</code>
+      <code>function greet(name) { return "Hi " + name; }</code>
+      <ul>
+        <li>Variables</li>
+        <li>Functions</li>
+        <li>Conditional Logic</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Advanced_Concepts">
+      <header>Advanced Concepts</header>
+      <p>Advanced topics include closures, callbacks, and async programming.</p>
+      <p>Closures allow inner functions to access outer variables.</p>
+      <p>Asynchronous code is handled with promises or async/await.</p>
+      <p>Modern JavaScript uses arrow functions and classes.</p>
+      <p>Always write non-blocking code in the browser.</p>
+      <code>const add = (a, b) => a + b;</code>
+      <code>async function getData() { return await fetch(url); }</code>
+      <ul>
+        <li>Closures</li>
+        <li>Promises</li>
+        <li>Async/Await</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Best_Practices">
+      <header>Best Practices</header>
+      <p>Write readable, maintainable code.</p>
+      <p>Use meaningful variable and function names.</p>
+      <p>Keep your functions small and modular.</p>
+      <p>Document your code and use version control.</p>
+      <p>Always test your code for edge cases.</p>
+      <code>// Naming matters</code>
+      <code>function calculateTotal(items) { return items.reduce(...); }</code>
+      <ul>
+        <li>Comment wisely</li>
+        <li>Follow a style guide</li>
+        <li>Use Git/GitHub</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
